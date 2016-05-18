@@ -1,0 +1,4 @@
+github "MatthewYork/DateTools" "v1.7.0"
+github "matthewcheok/JSONCodable" "2.1"
+github "antitypical/Result" "2.0.0"
+github "ReactiveCocoa/ReactiveCocoa" "v4.1.0"

@@ -1,0 +1,1335 @@
+BCSymbolMap Version: 1.0
+-[DTTimePeriod initWithStartDate:endDate:]
++[DTTimePeriod timePeriodWithStartDate:endDate:]
++[DTTimePeriod timePeriodWithSize:startingAt:]
++[DTTimePeriod timePeriodWithSize:amount:startingAt:]
++[DTTimePeriod timePeriodWithSize:endingAt:]
++[DTTimePeriod timePeriodWithSize:amount:endingAt:]
++[DTTimePeriod timePeriodWithAllTime]
++[DTTimePeriod dateWithAddedTime:amount:baseDate:]
++[DTTimePeriod dateWithSubtractedTime:amount:baseDate:]
+-[DTTimePeriod hasStartDate]
+-[DTTimePeriod hasEndDate]
+-[DTTimePeriod isMoment]
+-[DTTimePeriod durationInYears]
+-[DTTimePeriod durationInWeeks]
+-[DTTimePeriod durationInDays]
+-[DTTimePeriod durationInHours]
+-[DTTimePeriod durationInMinutes]
+-[DTTimePeriod durationInSeconds]
+-[DTTimePeriod isEqualToPeriod:]
+-[DTTimePeriod isInside:]
+-[DTTimePeriod contains:]
+-[DTTimePeriod overlapsWith:]
+-[DTTimePeriod intersects:]
+-[DTTimePeriod relationToPeriod:]
+-[DTTimePeriod gapBetween:]
+-[DTTimePeriod containsDate:interval:]
+-[DTTimePeriod shiftEarlierWithSize:]
+-[DTTimePeriod shiftEarlierWithSize:amount:]
+-[DTTimePeriod shiftLaterWithSize:]
+-[DTTimePeriod shiftLaterWithSize:amount:]
+-[DTTimePeriod lengthenWithAnchorDate:size:]
+-[DTTimePeriod lengthenWithAnchorDate:size:amount:]
+-[DTTimePeriod shortenWithAnchorDate:size:]
+-[DTTimePeriod shortenWithAnchorDate:size:amount:]
+-[DTTimePeriod copy]
+-[DTTimePeriod StartDate]
+-[DTTimePeriod setStartDate:]
+-[DTTimePeriod EndDate]
+-[DTTimePeriod setEndDate:]
+-[DTTimePeriod .cxx_destruct]
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_CLASSLIST_REFERENCES_$_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_METH_VAR_NAME_.32
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+OBJC_METH_VAR_NAME_.52
+OBJC_SELECTOR_REFERENCES_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_SELECTOR_REFERENCES_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_SELECTOR_REFERENCES_.65
+OBJC_METH_VAR_NAME_.66
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_METH_VAR_NAME_.74
+OBJC_SELECTOR_REFERENCES_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_SELECTOR_REFERENCES_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_SELECTOR_REFERENCES_.85
+OBJC_METH_VAR_NAME_.86
+OBJC_SELECTOR_REFERENCES_.87
+OBJC_IVAR_$_DTTimePeriod._StartDate
+OBJC_IVAR_$_DTTimePeriod._EndDate
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_NAME_.88
+OBJC_METH_VAR_TYPE_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_METH_VAR_TYPE_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_METH_VAR_NAME_.94
+OBJC_METH_VAR_TYPE_.95
+l_OBJC_$_CLASS_METHODS_DTTimePeriod
+l_OBJC_METACLASS_RO_$_DTTimePeriod
+OBJC_CLASS_NAME_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_METH_VAR_TYPE_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_METH_VAR_TYPE_.102
+OBJC_METH_VAR_NAME_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_METH_VAR_NAME_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_METH_VAR_TYPE_.109
+OBJC_METH_VAR_NAME_.110
+OBJC_METH_VAR_NAME_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_METH_VAR_TYPE_.115
+OBJC_METH_VAR_NAME_.116
+OBJC_METH_VAR_TYPE_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_METH_VAR_TYPE_.119
+OBJC_METH_VAR_NAME_.120
+OBJC_METH_VAR_TYPE_.121
+OBJC_METH_VAR_TYPE_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_NAME_.124
+OBJC_METH_VAR_TYPE_.125
+OBJC_METH_VAR_TYPE_.126
+OBJC_METH_VAR_NAME_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_METH_VAR_NAME_.129
+OBJC_METH_VAR_TYPE_.130
+OBJC_METH_VAR_TYPE_.131
+l_OBJC_$_INSTANCE_METHODS_DTTimePeriod
+OBJC_METH_VAR_NAME_.132
+OBJC_METH_VAR_TYPE_.133
+OBJC_METH_VAR_NAME_.134
+l_OBJC_$_INSTANCE_VARIABLES_DTTimePeriod
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.135
+OBJC_PROP_NAME_ATTR_.136
+OBJC_PROP_NAME_ATTR_.137
+l_OBJC_$_PROP_LIST_DTTimePeriod
+l_OBJC_CLASS_RO_$_DTTimePeriod
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.31)
+-[DTTimePeriod .cxx_destruct]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTTimePeriod.m
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/Examples/DateToolsExample
+-[DTTimePeriod setEndDate:]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTTimePeriod.h
+-[DTTimePeriod EndDate]
+-[DTTimePeriod setStartDate:]
+-[DTTimePeriod StartDate]
+-[DTTimePeriod copy]
+-[DTTimePeriod shortenWithAnchorDate:size:amount:]
+-[DTTimePeriod shortenWithAnchorDate:size:]
+-[DTTimePeriod lengthenWithAnchorDate:size:amount:]
+-[DTTimePeriod lengthenWithAnchorDate:size:]
+-[DTTimePeriod shiftLaterWithSize:amount:]
+-[DTTimePeriod shiftLaterWithSize:]
+-[DTTimePeriod shiftEarlierWithSize:amount:]
+-[DTTimePeriod shiftEarlierWithSize:]
+-[DTTimePeriod containsDate:interval:]
+-[DTTimePeriod gapBetween:]
+-[DTTimePeriod relationToPeriod:]
+-[DTTimePeriod intersects:]
+-[DTTimePeriod overlapsWith:]
+-[DTTimePeriod contains:]
+-[DTTimePeriod isInside:]
+-[DTTimePeriod isEqualToPeriod:]
+-[DTTimePeriod durationInSeconds]
+-[DTTimePeriod durationInMinutes]
+-[DTTimePeriod durationInHours]
+-[DTTimePeriod durationInDays]
+-[DTTimePeriod durationInWeeks]
+-[DTTimePeriod durationInYears]
+-[DTTimePeriod isMoment]
+-[DTTimePeriod hasEndDate]
+-[DTTimePeriod hasStartDate]
++[DTTimePeriod dateWithSubtractedTime:amount:baseDate:]
++[DTTimePeriod dateWithAddedTime:amount:baseDate:]
++[DTTimePeriod timePeriodWithAllTime]
++[DTTimePeriod timePeriodWithSize:amount:endingAt:]
++[DTTimePeriod timePeriodWithSize:endingAt:]
++[DTTimePeriod timePeriodWithSize:amount:startingAt:]
++[DTTimePeriod timePeriodWithSize:startingAt:]
++[DTTimePeriod timePeriodWithStartDate:endDate:]
+-[DTTimePeriod initWithStartDate:endDate:]
+-[DTTimePeriodGroup init]
+-[DTTimePeriodGroup objectAtIndexedSubscript:]
+-[DTTimePeriodGroup setObject:atIndexedSubscript:]
+-[DTTimePeriodGroup durationInYears]
+-[DTTimePeriodGroup durationInWeeks]
+-[DTTimePeriodGroup durationInDays]
+-[DTTimePeriodGroup durationInHours]
+-[DTTimePeriodGroup durationInMinutes]
+-[DTTimePeriodGroup durationInSeconds]
+-[DTTimePeriodGroup StartDate]
+-[DTTimePeriodGroup EndDate]
+-[DTTimePeriodGroup count]
+-[DTTimePeriodGroup hasSameCharacteristicsAs:]
+-[DTTimePeriodGroup shiftEarlierWithSize:]
+-[DTTimePeriodGroup shiftEarlierWithSize:amount:]
+__49-[DTTimePeriodGroup shiftEarlierWithSize:amount:]_block_invoke
+-[DTTimePeriodGroup shiftLaterWithSize:]
+-[DTTimePeriodGroup shiftLaterWithSize:amount:]
+__47-[DTTimePeriodGroup shiftLaterWithSize:amount:]_block_invoke
+-[DTTimePeriodGroup updateVariables]
+-[DTTimePeriodGroup .cxx_destruct]
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+.str
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_METH_VAR_NAME_.33
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_CLASS_NAME_.35
+__block_descriptor_tmp.36
+OBJC_CLASS_NAME_.37
+l_OBJC_METACLASS_RO_$_DTTimePeriodGroup
+OBJC_CLASS_NAME_.38
+OBJC_METH_VAR_TYPE_.39
+OBJC_METH_VAR_TYPE_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_METH_VAR_TYPE_.42
+OBJC_METH_VAR_NAME_.43
+OBJC_METH_VAR_NAME_.45
+OBJC_METH_VAR_NAME_.47
+OBJC_METH_VAR_TYPE_.48
+OBJC_METH_VAR_NAME_.49
+OBJC_METH_VAR_TYPE_.50
+OBJC_METH_VAR_NAME_.51
+OBJC_METH_VAR_TYPE_.52
+OBJC_METH_VAR_TYPE_.53
+OBJC_METH_VAR_TYPE_.55
+l_OBJC_$_INSTANCE_METHODS_DTTimePeriodGroup
+OBJC_METH_VAR_NAME_.57
+OBJC_METH_VAR_TYPE_.58
+OBJC_METH_VAR_TYPE_.59
+l_OBJC_$_INSTANCE_VARIABLES_DTTimePeriodGroup
+OBJC_PROP_NAME_ATTR_.60
+OBJC_PROP_NAME_ATTR_.61
+l_OBJC_$_PROP_LIST_DTTimePeriodGroup
+l_OBJC_CLASS_RO_$_DTTimePeriodGroup
+-[DTTimePeriodGroup .cxx_destruct]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTTimePeriodGroup.m
+-[DTTimePeriodGroup updateVariables]
+-[DTTimePeriodGroup shiftLaterWithSize:amount:]
+-[DTTimePeriodGroup shiftLaterWithSize:]
+-[DTTimePeriodGroup shiftEarlierWithSize:amount:]
+-[DTTimePeriodGroup shiftEarlierWithSize:]
+-[DTTimePeriodGroup hasSameCharacteristicsAs:]
+-[DTTimePeriodGroup count]
+-[DTTimePeriodGroup EndDate]
+-[DTTimePeriodGroup StartDate]
+-[DTTimePeriodGroup durationInSeconds]
+-[DTTimePeriodGroup durationInMinutes]
+-[DTTimePeriodGroup durationInHours]
+-[DTTimePeriodGroup durationInDays]
+-[DTTimePeriodGroup durationInWeeks]
+-[DTTimePeriodGroup durationInYears]
+-[DTTimePeriodGroup setObject:atIndexedSubscript:]
+-[DTTimePeriodGroup objectAtIndexedSubscript:]
+-[DTTimePeriodGroup init]
++[DTError throwInsertOutOfBoundsException:array:]
++[DTError throwRemoveOutOfBoundsException:array:]
++[DTError throwBadTypeException:expectedClass:]
++[DTError printErrorWithCallStack:]
+_unnamed_cfstring_
+.str.3
+_unnamed_cfstring_.4
+.str.5
+_unnamed_cfstring_.6
+OBJC_CLASSLIST_REFERENCES_$_.9
+.str.10
+_unnamed_cfstring_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+.str.14
+_unnamed_cfstring_.15
+OBJC_CLASSLIST_REFERENCES_$_.16
+OBJC_CLASSLIST_REFERENCES_$_.19
+.str.24
+_unnamed_cfstring_.25
+.str.26
+_unnamed_cfstring_.27
+.str.28
+_unnamed_cfstring_.29
+.str.32
+_unnamed_cfstring_.33
+.str.34
+_unnamed_cfstring_.35
+OBJC_CLASSLIST_REFERENCES_$_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_METH_VAR_NAME_.39
+OBJC_SELECTOR_REFERENCES_.40
+.str.41
+_unnamed_cfstring_.42
+OBJC_METH_VAR_TYPE_.46
+OBJC_METH_VAR_TYPE_.47
+l_OBJC_$_CLASS_METHODS_DTError
+l_OBJC_METACLASS_RO_$_DTError
+l_OBJC_CLASS_RO_$_DTError
++[DTError printErrorWithCallStack:]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTError.m
++[DTError throwBadTypeException:expectedClass:]
++[DTError throwRemoveOutOfBoundsException:array:]
++[DTError throwInsertOutOfBoundsException:array:]
++[DTTimePeriodCollection collection]
+-[DTTimePeriodCollection addTimePeriod:]
+-[DTTimePeriodCollection insertTimePeriod:atIndex:]
+-[DTTimePeriodCollection removeTimePeriodAtIndex:]
+-[DTTimePeriodCollection sortByStartAscending]
+__46-[DTTimePeriodCollection sortByStartAscending]_block_invoke
+-[DTTimePeriodCollection sortByStartDescending]
+__47-[DTTimePeriodCollection sortByStartDescending]_block_invoke
+-[DTTimePeriodCollection sortByEndAscending]
+__44-[DTTimePeriodCollection sortByEndAscending]_block_invoke
+-[DTTimePeriodCollection sortByEndDescending]
+__45-[DTTimePeriodCollection sortByEndDescending]_block_invoke
+-[DTTimePeriodCollection sortByDurationAscending]
+__49-[DTTimePeriodCollection sortByDurationAscending]_block_invoke
+-[DTTimePeriodCollection sortByDurationDescending]
+__50-[DTTimePeriodCollection sortByDurationDescending]_block_invoke
+-[DTTimePeriodCollection periodsInside:]
+__40-[DTTimePeriodCollection periodsInside:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[DTTimePeriodCollection periodsIntersectedByDate:]
+__51-[DTTimePeriodCollection periodsIntersectedByDate:]_block_invoke
+__copy_helper_block_.58
+__destroy_helper_block_.59
+-[DTTimePeriodCollection periodsIntersectedByPeriod:]
+__53-[DTTimePeriodCollection periodsIntersectedByPeriod:]_block_invoke
+__copy_helper_block_.63
+__destroy_helper_block_.64
+-[DTTimePeriodCollection periodsOverlappedByPeriod:]
+__52-[DTTimePeriodCollection periodsOverlappedByPeriod:]_block_invoke
+__copy_helper_block_.68
+__destroy_helper_block_.69
+-[DTTimePeriodCollection isEqualToCollection:considerOrder:]
+__60-[DTTimePeriodCollection isEqualToCollection:considerOrder:]_block_invoke
+__copy_helper_block_.77
+__destroy_helper_block_.78
+__Block_byref_object_copy_
+__Block_byref_object_dispose_
+__60-[DTTimePeriodCollection isEqualToCollection:considerOrder:]_block_invoke.82
+__copy_helper_block_.85
+__destroy_helper_block_.86
+-[DTTimePeriodCollection updateVariables]
+__41-[DTTimePeriodCollection updateVariables]_block_invoke
+__copy_helper_block_.96
+__destroy_helper_block_.97
+-[DTTimePeriodCollection setVariablesNil]
+-[DTTimePeriodCollection copy]
+__30-[DTTimePeriodCollection copy]_block_invoke
+__copy_helper_block_.101
+__destroy_helper_block_.102
+OBJC_CLASSLIST_REFERENCES_$_.3
+OBJC_METH_VAR_NAME_.4
+OBJC_SELECTOR_REFERENCES_.5
+OBJC_METH_VAR_NAME_.6
+OBJC_SELECTOR_REFERENCES_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+OBJC_CLASSLIST_REFERENCES_$_.12
+__block_literal_global
+__block_descriptor_tmp.33
+__block_literal_global.34
+OBJC_METH_VAR_NAME_.35
+OBJC_SELECTOR_REFERENCES_.36
+__block_descriptor_tmp.37
+__block_literal_global.38
+__block_descriptor_tmp.39
+__block_literal_global.40
+OBJC_SELECTOR_REFERENCES_.42
+__block_descriptor_tmp.43
+__block_literal_global.44
+__block_descriptor_tmp.45
+__block_literal_global.46
+OBJC_SELECTOR_REFERENCES_.48
+OBJC_SELECTOR_REFERENCES_.50
+.str.51
+__block_descriptor_tmp.52
+OBJC_METH_VAR_NAME_.53
+OBJC_SELECTOR_REFERENCES_.54
+OBJC_CLASSLIST_REFERENCES_$_.55
+__block_descriptor_tmp.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+__block_descriptor_tmp.65
+__block_descriptor_tmp.70
+OBJC_METH_VAR_NAME_.71
+OBJC_SELECTOR_REFERENCES_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_SELECTOR_REFERENCES_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_SELECTOR_REFERENCES_.76
+__block_descriptor_tmp.79
+OBJC_METH_VAR_NAME_.83
+OBJC_SELECTOR_REFERENCES_.84
+__block_descriptor_tmp.87
+OBJC_SELECTOR_REFERENCES_.89
+OBJC_SELECTOR_REFERENCES_.91
+OBJC_SELECTOR_REFERENCES_.93
+OBJC_SELECTOR_REFERENCES_.95
+__block_descriptor_tmp.98
+OBJC_SELECTOR_REFERENCES_.100
+__block_descriptor_tmp.103
+l_OBJC_$_CLASS_METHODS_DTTimePeriodCollection
+l_OBJC_METACLASS_RO_$_DTTimePeriodCollection
+OBJC_METH_VAR_TYPE_.104
+OBJC_METH_VAR_TYPE_.106
+OBJC_METH_VAR_TYPE_.107
+OBJC_METH_VAR_NAME_.115
+OBJC_METH_VAR_TYPE_.116
+OBJC_METH_VAR_NAME_.117
+OBJC_METH_VAR_NAME_.119
+l_OBJC_$_INSTANCE_METHODS_DTTimePeriodCollection
+l_OBJC_CLASS_RO_$_DTTimePeriodCollection
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTTimePeriodCollection.m
+-[DTTimePeriodCollection copy]
+-[DTTimePeriodCollection setVariablesNil]
+-[DTTimePeriodCollection updateVariables]
+-[DTTimePeriodCollection isEqualToCollection:considerOrder:]
+-[DTTimePeriodCollection periodsOverlappedByPeriod:]
+-[DTTimePeriodCollection periodsIntersectedByPeriod:]
+-[DTTimePeriodCollection periodsIntersectedByDate:]
+-[DTTimePeriodCollection periodsInside:]
+-[DTTimePeriodCollection sortByDurationDescending]
+-[DTTimePeriodCollection sortByDurationAscending]
+-[DTTimePeriodCollection sortByEndDescending]
+-[DTTimePeriodCollection sortByEndAscending]
+-[DTTimePeriodCollection sortByStartDescending]
+-[DTTimePeriodCollection sortByStartAscending]
+-[DTTimePeriodCollection removeTimePeriodAtIndex:]
+-[DTTimePeriodCollection insertTimePeriod:atIndex:]
+-[DTTimePeriodCollection addTimePeriod:]
++[DTTimePeriodCollection collection]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTConstants.m
++[NSDate(DateTools) load]
++[NSDate(DateTools) timeAgoSinceDate:]
++[NSDate(DateTools) shortTimeAgoSinceDate:]
+-[NSDate(DateTools) timeAgoSinceNow]
+-[NSDate(DateTools) shortTimeAgoSinceNow]
+-[NSDate(DateTools) timeAgoSinceDate:]
+-[NSDate(DateTools) timeAgoSinceDate:numericDates:]
+-[NSDate(DateTools) timeAgoSinceDate:numericDates:numericTimes:]
+-[NSDate(DateTools) shortTimeAgoSinceDate:]
+-[NSDate(DateTools) timeAgoSinceDate:format:]
+-[NSDate(DateTools) localizedStringFor:valueType:value:]
+-[NSDate(DateTools) logicLocalizedStringFromFormat:withValue:]
+-[NSDate(DateTools) getLocaleFormatUnderscoresWithValue:]
+-[NSDate(DateTools) era]
+-[NSDate(DateTools) year]
+-[NSDate(DateTools) month]
+-[NSDate(DateTools) day]
+-[NSDate(DateTools) hour]
+-[NSDate(DateTools) minute]
+-[NSDate(DateTools) second]
+-[NSDate(DateTools) weekday]
+-[NSDate(DateTools) weekdayOrdinal]
+-[NSDate(DateTools) quarter]
+-[NSDate(DateTools) weekOfMonth]
+-[NSDate(DateTools) weekOfYear]
+-[NSDate(DateTools) yearForWeekOfYear]
+-[NSDate(DateTools) daysInMonth]
+-[NSDate(DateTools) dayOfYear]
+-[NSDate(DateTools) daysInYear]
+-[NSDate(DateTools) isInLeapYear]
+-[NSDate(DateTools) isToday]
+-[NSDate(DateTools) isTomorrow]
+-[NSDate(DateTools) isYesterday]
+-[NSDate(DateTools) isWeekend]
+-[NSDate(DateTools) isSameDay:]
++[NSDate(DateTools) isSameDay:asDate:]
+-[NSDate(DateTools) eraWithCalendar:]
+-[NSDate(DateTools) yearWithCalendar:]
+-[NSDate(DateTools) monthWithCalendar:]
+-[NSDate(DateTools) dayWithCalendar:]
+-[NSDate(DateTools) hourWithCalendar:]
+-[NSDate(DateTools) minuteWithCalendar:]
+-[NSDate(DateTools) secondWithCalendar:]
+-[NSDate(DateTools) weekdayWithCalendar:]
+-[NSDate(DateTools) weekdayOrdinalWithCalendar:]
+-[NSDate(DateTools) quarterWithCalendar:]
+-[NSDate(DateTools) weekOfMonthWithCalendar:]
+-[NSDate(DateTools) weekOfYearWithCalendar:]
+-[NSDate(DateTools) yearForWeekOfYearWithCalendar:]
+-[NSDate(DateTools) dayOfYearWithCalendar:]
+-[NSDate(DateTools) componentForDate:type:calendar:]
++[NSDate(DateTools) dateWithYear:month:day:]
++[NSDate(DateTools) dateWithYear:month:day:hour:minute:second:]
++[NSDate(DateTools) dateWithString:formatString:]
++[NSDate(DateTools) dateWithString:formatString:timeZone:]
+__58+[NSDate(DateTools) dateWithString:formatString:timeZone:]_block_invoke
+-[NSDate(DateTools) dateByAddingYears:]
+-[NSDate(DateTools) dateByAddingMonths:]
+-[NSDate(DateTools) dateByAddingWeeks:]
+-[NSDate(DateTools) dateByAddingDays:]
+-[NSDate(DateTools) dateByAddingHours:]
+-[NSDate(DateTools) dateByAddingMinutes:]
+-[NSDate(DateTools) dateByAddingSeconds:]
+-[NSDate(DateTools) dateBySubtractingYears:]
+-[NSDate(DateTools) dateBySubtractingMonths:]
+-[NSDate(DateTools) dateBySubtractingWeeks:]
+-[NSDate(DateTools) dateBySubtractingDays:]
+-[NSDate(DateTools) dateBySubtractingHours:]
+-[NSDate(DateTools) dateBySubtractingMinutes:]
+-[NSDate(DateTools) dateBySubtractingSeconds:]
+-[NSDate(DateTools) yearsFrom:]
+-[NSDate(DateTools) monthsFrom:]
+-[NSDate(DateTools) weeksFrom:]
+-[NSDate(DateTools) daysFrom:]
+-[NSDate(DateTools) hoursFrom:]
+-[NSDate(DateTools) minutesFrom:]
+-[NSDate(DateTools) secondsFrom:]
+-[NSDate(DateTools) yearsFrom:calendar:]
+-[NSDate(DateTools) monthsFrom:calendar:]
+-[NSDate(DateTools) weeksFrom:calendar:]
+-[NSDate(DateTools) daysFrom:calendar:]
+-[NSDate(DateTools) yearsUntil]
+-[NSDate(DateTools) monthsUntil]
+-[NSDate(DateTools) weeksUntil]
+-[NSDate(DateTools) daysUntil]
+-[NSDate(DateTools) hoursUntil]
+-[NSDate(DateTools) minutesUntil]
+-[NSDate(DateTools) secondsUntil]
+-[NSDate(DateTools) yearsAgo]
+-[NSDate(DateTools) monthsAgo]
+-[NSDate(DateTools) weeksAgo]
+-[NSDate(DateTools) daysAgo]
+-[NSDate(DateTools) hoursAgo]
+-[NSDate(DateTools) minutesAgo]
+-[NSDate(DateTools) secondsAgo]
+-[NSDate(DateTools) yearsEarlierThan:]
+-[NSDate(DateTools) monthsEarlierThan:]
+-[NSDate(DateTools) weeksEarlierThan:]
+-[NSDate(DateTools) daysEarlierThan:]
+-[NSDate(DateTools) hoursEarlierThan:]
+-[NSDate(DateTools) minutesEarlierThan:]
+-[NSDate(DateTools) secondsEarlierThan:]
+-[NSDate(DateTools) yearsLaterThan:]
+-[NSDate(DateTools) monthsLaterThan:]
+-[NSDate(DateTools) weeksLaterThan:]
+-[NSDate(DateTools) daysLaterThan:]
+-[NSDate(DateTools) hoursLaterThan:]
+-[NSDate(DateTools) minutesLaterThan:]
+-[NSDate(DateTools) secondsLaterThan:]
+-[NSDate(DateTools) isEarlierThan:]
+-[NSDate(DateTools) isLaterThan:]
+-[NSDate(DateTools) isEarlierThanOrEqualTo:]
+-[NSDate(DateTools) isLaterThanOrEqualTo:]
+-[NSDate(DateTools) formattedDateWithStyle:]
+-[NSDate(DateTools) formattedDateWithStyle:timeZone:]
+-[NSDate(DateTools) formattedDateWithStyle:locale:]
+-[NSDate(DateTools) formattedDateWithStyle:timeZone:locale:]
+__60-[NSDate(DateTools) formattedDateWithStyle:timeZone:locale:]_block_invoke
+-[NSDate(DateTools) formattedDateWithFormat:]
+-[NSDate(DateTools) formattedDateWithFormat:timeZone:]
+-[NSDate(DateTools) formattedDateWithFormat:locale:]
+-[NSDate(DateTools) formattedDateWithFormat:timeZone:locale:]
+__61-[NSDate(DateTools) formattedDateWithFormat:timeZone:locale:]_block_invoke
++[NSDate(DateTools) isLeapYear:]
++[NSDate(DateTools) defaultCalendarIdentifier]
++[NSDate(DateTools) setDefaultCalendarIdentifier:]
++[NSDate(DateTools) implicitCalendar]
+defaultCalendarIdentifier
+implicitCalendar
+.str.42
+_unnamed_cfstring_.43
+OBJC_CLASSLIST_REFERENCES_$_.44
+OBJC_CLASSLIST_REFERENCES_$_.45
+.str.52
+_unnamed_cfstring_.53
+.str.58
+_unnamed_cfstring_.59
+.str.60
+_unnamed_cfstring_.61
+.str.62
+_unnamed_cfstring_.63
+.str.66
+_unnamed_cfstring_.67
+.str.68
+_unnamed_cfstring_.69
+.str.70
+_unnamed_cfstring_.71
+.str.72
+_unnamed_cfstring_.73
+.str.74
+_unnamed_cfstring_.75
+.str.76
+_unnamed_cfstring_.77
+.str.78
+_unnamed_cfstring_.79
+.str.80
+_unnamed_cfstring_.81
+.str.82
+_unnamed_cfstring_.83
+.str.84
+_unnamed_cfstring_.85
+.str.86
+_unnamed_cfstring_.87
+.str.88
+_unnamed_cfstring_.89
+.str.90
+_unnamed_cfstring_.91
+.str.92
+_unnamed_cfstring_.93
+.str.94
+_unnamed_cfstring_.95
+.str.96
+_unnamed_cfstring_.97
+.str.98
+_unnamed_cfstring_.99
+.str.100
+_unnamed_cfstring_.101
+.str.102
+_unnamed_cfstring_.103
+.str.104
+_unnamed_cfstring_.105
+.str.106
+_unnamed_cfstring_.107
+.str.108
+_unnamed_cfstring_.109
+.str.110
+_unnamed_cfstring_.111
+.str.112
+_unnamed_cfstring_.113
+.str.114
+_unnamed_cfstring_.115
+OBJC_CLASSLIST_REFERENCES_$_.116
+OBJC_SELECTOR_REFERENCES_.118
+OBJC_SELECTOR_REFERENCES_.120
+OBJC_METH_VAR_NAME_.121
+OBJC_SELECTOR_REFERENCES_.122
+OBJC_SELECTOR_REFERENCES_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_SELECTOR_REFERENCES_.126
+.str.127
+_unnamed_cfstring_.128
+OBJC_SELECTOR_REFERENCES_.130
+.str.131
+_unnamed_cfstring_.132
+.str.133
+_unnamed_cfstring_.134
+.str.135
+_unnamed_cfstring_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_SELECTOR_REFERENCES_.138
+OBJC_METH_VAR_NAME_.139
+OBJC_SELECTOR_REFERENCES_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_SELECTOR_REFERENCES_.142
+OBJC_METH_VAR_NAME_.143
+OBJC_SELECTOR_REFERENCES_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_SELECTOR_REFERENCES_.146
+OBJC_METH_VAR_NAME_.147
+OBJC_SELECTOR_REFERENCES_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_SELECTOR_REFERENCES_.150
+OBJC_METH_VAR_NAME_.151
+OBJC_SELECTOR_REFERENCES_.152
+OBJC_METH_VAR_NAME_.153
+OBJC_SELECTOR_REFERENCES_.154
+OBJC_METH_VAR_NAME_.155
+OBJC_SELECTOR_REFERENCES_.156
+OBJC_METH_VAR_NAME_.157
+OBJC_SELECTOR_REFERENCES_.158
+OBJC_METH_VAR_NAME_.159
+OBJC_SELECTOR_REFERENCES_.160
+OBJC_METH_VAR_NAME_.161
+OBJC_SELECTOR_REFERENCES_.162
+OBJC_METH_VAR_NAME_.163
+OBJC_SELECTOR_REFERENCES_.164
+OBJC_METH_VAR_NAME_.165
+OBJC_SELECTOR_REFERENCES_.166
+OBJC_METH_VAR_NAME_.167
+OBJC_SELECTOR_REFERENCES_.168
+OBJC_METH_VAR_NAME_.169
+OBJC_SELECTOR_REFERENCES_.170
+OBJC_CLASSLIST_REFERENCES_$_.171
+OBJC_METH_VAR_NAME_.172
+OBJC_SELECTOR_REFERENCES_.173
+OBJC_METH_VAR_NAME_.174
+OBJC_SELECTOR_REFERENCES_.175
+OBJC_METH_VAR_NAME_.176
+OBJC_SELECTOR_REFERENCES_.177
+OBJC_METH_VAR_NAME_.178
+OBJC_SELECTOR_REFERENCES_.179
+OBJC_METH_VAR_NAME_.180
+OBJC_SELECTOR_REFERENCES_.181
+OBJC_METH_VAR_NAME_.182
+OBJC_SELECTOR_REFERENCES_.183
+OBJC_METH_VAR_NAME_.184
+OBJC_SELECTOR_REFERENCES_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_SELECTOR_REFERENCES_.187
+OBJC_CLASSLIST_REFERENCES_$_.188
+OBJC_METH_VAR_NAME_.189
+OBJC_SELECTOR_REFERENCES_.190
+OBJC_METH_VAR_NAME_.191
+OBJC_SELECTOR_REFERENCES_.192
+dateWithString:formatString:timeZone:.parser
+dateWithString:formatString:timeZone:.onceToken
+OBJC_CLASSLIST_REFERENCES_$_.193
+.str.194
+OBJC_METH_VAR_NAME_.195
+OBJC_SELECTOR_REFERENCES_.196
+OBJC_METH_VAR_NAME_.197
+OBJC_SELECTOR_REFERENCES_.198
+OBJC_METH_VAR_NAME_.199
+OBJC_SELECTOR_REFERENCES_.200
+OBJC_METH_VAR_NAME_.201
+OBJC_SELECTOR_REFERENCES_.202
+OBJC_METH_VAR_NAME_.203
+OBJC_SELECTOR_REFERENCES_.204
+OBJC_METH_VAR_NAME_.205
+OBJC_SELECTOR_REFERENCES_.206
+OBJC_METH_VAR_NAME_.207
+OBJC_SELECTOR_REFERENCES_.208
+OBJC_METH_VAR_NAME_.209
+OBJC_SELECTOR_REFERENCES_.210
+OBJC_METH_VAR_NAME_.211
+OBJC_SELECTOR_REFERENCES_.212
+OBJC_METH_VAR_NAME_.213
+OBJC_SELECTOR_REFERENCES_.214
+OBJC_METH_VAR_NAME_.215
+OBJC_SELECTOR_REFERENCES_.216
+OBJC_METH_VAR_NAME_.217
+OBJC_SELECTOR_REFERENCES_.218
+OBJC_METH_VAR_NAME_.219
+OBJC_SELECTOR_REFERENCES_.220
+OBJC_METH_VAR_NAME_.221
+OBJC_SELECTOR_REFERENCES_.222
+OBJC_METH_VAR_NAME_.223
+OBJC_SELECTOR_REFERENCES_.224
+OBJC_METH_VAR_NAME_.225
+OBJC_SELECTOR_REFERENCES_.226
+OBJC_METH_VAR_NAME_.227
+OBJC_SELECTOR_REFERENCES_.228
+OBJC_METH_VAR_NAME_.229
+OBJC_SELECTOR_REFERENCES_.230
+OBJC_METH_VAR_NAME_.231
+OBJC_SELECTOR_REFERENCES_.232
+OBJC_METH_VAR_NAME_.233
+OBJC_SELECTOR_REFERENCES_.234
+OBJC_METH_VAR_NAME_.235
+OBJC_SELECTOR_REFERENCES_.236
+OBJC_METH_VAR_NAME_.237
+OBJC_SELECTOR_REFERENCES_.238
+OBJC_METH_VAR_NAME_.239
+OBJC_SELECTOR_REFERENCES_.240
+OBJC_METH_VAR_NAME_.241
+OBJC_SELECTOR_REFERENCES_.242
+OBJC_METH_VAR_NAME_.243
+OBJC_SELECTOR_REFERENCES_.244
+OBJC_METH_VAR_NAME_.245
+OBJC_SELECTOR_REFERENCES_.246
+OBJC_METH_VAR_NAME_.247
+OBJC_SELECTOR_REFERENCES_.248
+OBJC_METH_VAR_NAME_.249
+OBJC_SELECTOR_REFERENCES_.250
+OBJC_METH_VAR_NAME_.251
+OBJC_SELECTOR_REFERENCES_.252
+OBJC_METH_VAR_NAME_.253
+OBJC_SELECTOR_REFERENCES_.254
+OBJC_METH_VAR_NAME_.255
+OBJC_SELECTOR_REFERENCES_.256
+OBJC_METH_VAR_NAME_.257
+OBJC_SELECTOR_REFERENCES_.258
+OBJC_METH_VAR_NAME_.259
+OBJC_SELECTOR_REFERENCES_.260
+OBJC_METH_VAR_NAME_.261
+OBJC_SELECTOR_REFERENCES_.262
+OBJC_CLASSLIST_REFERENCES_$_.263
+OBJC_METH_VAR_NAME_.264
+OBJC_SELECTOR_REFERENCES_.265
+OBJC_METH_VAR_NAME_.266
+OBJC_SELECTOR_REFERENCES_.267
+formattedDateWithStyle:timeZone:locale:.formatter
+formattedDateWithStyle:timeZone:locale:.onceToken
+__block_descriptor_tmp.268
+__block_literal_global.269
+OBJC_METH_VAR_NAME_.270
+OBJC_SELECTOR_REFERENCES_.271
+OBJC_METH_VAR_NAME_.272
+OBJC_SELECTOR_REFERENCES_.273
+OBJC_METH_VAR_NAME_.274
+OBJC_SELECTOR_REFERENCES_.275
+formattedDateWithFormat:timeZone:locale:.formatter
+formattedDateWithFormat:timeZone:locale:.onceToken
+__block_descriptor_tmp.276
+__block_literal_global.277
+OBJC_METH_VAR_NAME_.278
+OBJC_SELECTOR_REFERENCES_.279
+OBJC_METH_VAR_NAME_.280
+OBJC_SELECTOR_REFERENCES_.281
+OBJC_METH_VAR_NAME_.282
+OBJC_METH_VAR_NAME_.283
+OBJC_METH_VAR_TYPE_.284
+OBJC_METH_VAR_TYPE_.285
+OBJC_METH_VAR_TYPE_.286
+OBJC_METH_VAR_TYPE_.287
+OBJC_METH_VAR_TYPE_.288
+OBJC_METH_VAR_TYPE_.289
+OBJC_METH_VAR_TYPE_.290
+OBJC_METH_VAR_TYPE_.291
+OBJC_METH_VAR_NAME_.292
+OBJC_METH_VAR_NAME_.293
+OBJC_METH_VAR_NAME_.294
+OBJC_METH_VAR_TYPE_.295
+OBJC_METH_VAR_NAME_.296
+OBJC_METH_VAR_NAME_.297
+OBJC_METH_VAR_NAME_.298
+OBJC_METH_VAR_NAME_.299
+OBJC_METH_VAR_NAME_.300
+OBJC_METH_VAR_TYPE_.301
+OBJC_METH_VAR_NAME_.302
+OBJC_METH_VAR_TYPE_.303
+OBJC_METH_VAR_NAME_.304
+OBJC_METH_VAR_NAME_.305
+OBJC_METH_VAR_NAME_.306
+OBJC_METH_VAR_NAME_.307
+OBJC_METH_VAR_NAME_.308
+OBJC_METH_VAR_NAME_.309
+OBJC_METH_VAR_NAME_.310
+OBJC_METH_VAR_NAME_.311
+OBJC_METH_VAR_NAME_.312
+OBJC_METH_VAR_NAME_.313
+OBJC_METH_VAR_NAME_.314
+OBJC_METH_VAR_NAME_.315
+OBJC_METH_VAR_NAME_.316
+OBJC_METH_VAR_TYPE_.317
+OBJC_METH_VAR_NAME_.318
+OBJC_METH_VAR_TYPE_.319
+OBJC_METH_VAR_NAME_.320
+OBJC_METH_VAR_NAME_.321
+OBJC_METH_VAR_NAME_.322
+OBJC_METH_VAR_NAME_.323
+OBJC_METH_VAR_NAME_.324
+OBJC_METH_VAR_NAME_.325
+OBJC_METH_VAR_NAME_.326
+OBJC_METH_VAR_NAME_.327
+OBJC_METH_VAR_NAME_.328
+OBJC_METH_VAR_NAME_.329
+OBJC_METH_VAR_NAME_.330
+OBJC_METH_VAR_TYPE_.331
+OBJC_METH_VAR_TYPE_.332
+OBJC_METH_VAR_NAME_.333
+OBJC_METH_VAR_NAME_.334
+OBJC_METH_VAR_NAME_.335
+OBJC_METH_VAR_NAME_.336
+OBJC_METH_VAR_NAME_.337
+OBJC_METH_VAR_TYPE_.338
+OBJC_METH_VAR_NAME_.339
+OBJC_METH_VAR_NAME_.340
+OBJC_METH_VAR_NAME_.341
+OBJC_METH_VAR_NAME_.342
+OBJC_METH_VAR_NAME_.343
+OBJC_METH_VAR_NAME_.344
+OBJC_METH_VAR_NAME_.345
+OBJC_METH_VAR_NAME_.346
+OBJC_METH_VAR_NAME_.347
+OBJC_METH_VAR_NAME_.348
+OBJC_METH_VAR_NAME_.349
+OBJC_METH_VAR_NAME_.350
+OBJC_METH_VAR_NAME_.351
+OBJC_METH_VAR_NAME_.352
+OBJC_METH_VAR_TYPE_.353
+OBJC_METH_VAR_NAME_.354
+OBJC_METH_VAR_TYPE_.355
+OBJC_METH_VAR_NAME_.356
+OBJC_METH_VAR_TYPE_.357
+OBJC_METH_VAR_NAME_.358
+OBJC_METH_VAR_NAME_.359
+OBJC_METH_VAR_TYPE_.360
+OBJC_METH_VAR_NAME_.361
+OBJC_METH_VAR_TYPE_.362
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSDate_$_DateTools
+OBJC_METH_VAR_NAME_.363
+OBJC_METH_VAR_TYPE_.364
+OBJC_METH_VAR_TYPE_.365
+OBJC_METH_VAR_NAME_.366
+OBJC_METH_VAR_TYPE_.367
+OBJC_METH_VAR_TYPE_.368
+OBJC_METH_VAR_NAME_.369
+OBJC_METH_VAR_NAME_.370
+OBJC_METH_VAR_TYPE_.371
+OBJC_METH_VAR_NAME_.372
+OBJC_METH_VAR_TYPE_.373
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSDate_$_DateTools
+l_OBJC_$_CATEGORY_NSDate_$_DateTools
+OBJC_LABEL_CATEGORY_$
+OBJC_LABEL_NONLAZY_CATEGORY_$
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/dispatch/once.h
++[NSDate(DateTools) implicitCalendar]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/NSDate+DateTools.m
++[NSDate(DateTools) setDefaultCalendarIdentifier:]
++[NSDate(DateTools) defaultCalendarIdentifier]
++[NSDate(DateTools) isLeapYear:]
+-[NSDate(DateTools) formattedDateWithFormat:timeZone:locale:]
+-[NSDate(DateTools) formattedDateWithFormat:locale:]
+-[NSDate(DateTools) formattedDateWithFormat:timeZone:]
+-[NSDate(DateTools) formattedDateWithFormat:]
+-[NSDate(DateTools) formattedDateWithStyle:timeZone:locale:]
+-[NSDate(DateTools) formattedDateWithStyle:locale:]
+-[NSDate(DateTools) formattedDateWithStyle:timeZone:]
+-[NSDate(DateTools) formattedDateWithStyle:]
+-[NSDate(DateTools) isLaterThanOrEqualTo:]
+-[NSDate(DateTools) isEarlierThanOrEqualTo:]
+-[NSDate(DateTools) isLaterThan:]
+-[NSDate(DateTools) isEarlierThan:]
+-[NSDate(DateTools) secondsLaterThan:]
+-[NSDate(DateTools) minutesLaterThan:]
+-[NSDate(DateTools) hoursLaterThan:]
+-[NSDate(DateTools) daysLaterThan:]
+-[NSDate(DateTools) weeksLaterThan:]
+-[NSDate(DateTools) monthsLaterThan:]
+-[NSDate(DateTools) yearsLaterThan:]
+-[NSDate(DateTools) secondsEarlierThan:]
+-[NSDate(DateTools) minutesEarlierThan:]
+-[NSDate(DateTools) hoursEarlierThan:]
+-[NSDate(DateTools) daysEarlierThan:]
+-[NSDate(DateTools) weeksEarlierThan:]
+-[NSDate(DateTools) monthsEarlierThan:]
+-[NSDate(DateTools) yearsEarlierThan:]
+-[NSDate(DateTools) secondsAgo]
+-[NSDate(DateTools) minutesAgo]
+-[NSDate(DateTools) hoursAgo]
+-[NSDate(DateTools) daysAgo]
+-[NSDate(DateTools) weeksAgo]
+-[NSDate(DateTools) monthsAgo]
+-[NSDate(DateTools) yearsAgo]
+-[NSDate(DateTools) secondsUntil]
+-[NSDate(DateTools) minutesUntil]
+-[NSDate(DateTools) hoursUntil]
+-[NSDate(DateTools) daysUntil]
+-[NSDate(DateTools) weeksUntil]
+-[NSDate(DateTools) monthsUntil]
+-[NSDate(DateTools) yearsUntil]
+-[NSDate(DateTools) daysFrom:calendar:]
+-[NSDate(DateTools) weeksFrom:calendar:]
+-[NSDate(DateTools) monthsFrom:calendar:]
+-[NSDate(DateTools) yearsFrom:calendar:]
+-[NSDate(DateTools) secondsFrom:]
+-[NSDate(DateTools) minutesFrom:]
+-[NSDate(DateTools) hoursFrom:]
+-[NSDate(DateTools) daysFrom:]
+-[NSDate(DateTools) weeksFrom:]
+-[NSDate(DateTools) monthsFrom:]
+-[NSDate(DateTools) yearsFrom:]
+-[NSDate(DateTools) dateBySubtractingSeconds:]
+-[NSDate(DateTools) dateBySubtractingMinutes:]
+-[NSDate(DateTools) dateBySubtractingHours:]
+-[NSDate(DateTools) dateBySubtractingDays:]
+-[NSDate(DateTools) dateBySubtractingWeeks:]
+-[NSDate(DateTools) dateBySubtractingMonths:]
+-[NSDate(DateTools) dateBySubtractingYears:]
+-[NSDate(DateTools) dateByAddingSeconds:]
+-[NSDate(DateTools) dateByAddingMinutes:]
+-[NSDate(DateTools) dateByAddingHours:]
+-[NSDate(DateTools) dateByAddingDays:]
+-[NSDate(DateTools) dateByAddingWeeks:]
+-[NSDate(DateTools) dateByAddingMonths:]
+-[NSDate(DateTools) dateByAddingYears:]
++[NSDate(DateTools) dateWithString:formatString:timeZone:]
++[NSDate(DateTools) dateWithString:formatString:]
++[NSDate(DateTools) dateWithYear:month:day:hour:minute:second:]
++[NSDate(DateTools) dateWithYear:month:day:]
+-[NSDate(DateTools) componentForDate:type:calendar:]
+-[NSDate(DateTools) dayOfYearWithCalendar:]
+-[NSDate(DateTools) yearForWeekOfYearWithCalendar:]
+-[NSDate(DateTools) weekOfYearWithCalendar:]
+-[NSDate(DateTools) weekOfMonthWithCalendar:]
+-[NSDate(DateTools) quarterWithCalendar:]
+-[NSDate(DateTools) weekdayOrdinalWithCalendar:]
+-[NSDate(DateTools) weekdayWithCalendar:]
+-[NSDate(DateTools) secondWithCalendar:]
+-[NSDate(DateTools) minuteWithCalendar:]
+-[NSDate(DateTools) hourWithCalendar:]
+-[NSDate(DateTools) dayWithCalendar:]
+-[NSDate(DateTools) monthWithCalendar:]
+-[NSDate(DateTools) yearWithCalendar:]
+-[NSDate(DateTools) eraWithCalendar:]
++[NSDate(DateTools) isSameDay:asDate:]
+-[NSDate(DateTools) isSameDay:]
+-[NSDate(DateTools) isWeekend]
+-[NSDate(DateTools) isYesterday]
+-[NSDate(DateTools) isTomorrow]
+-[NSDate(DateTools) isToday]
+-[NSDate(DateTools) isInLeapYear]
+-[NSDate(DateTools) daysInYear]
+-[NSDate(DateTools) dayOfYear]
+-[NSDate(DateTools) daysInMonth]
+-[NSDate(DateTools) yearForWeekOfYear]
+-[NSDate(DateTools) weekOfYear]
+-[NSDate(DateTools) weekOfMonth]
+-[NSDate(DateTools) quarter]
+-[NSDate(DateTools) weekdayOrdinal]
+-[NSDate(DateTools) weekday]
+-[NSDate(DateTools) second]
+-[NSDate(DateTools) minute]
+-[NSDate(DateTools) hour]
+-[NSDate(DateTools) day]
+-[NSDate(DateTools) month]
+-[NSDate(DateTools) year]
+-[NSDate(DateTools) era]
+-[NSDate(DateTools) getLocaleFormatUnderscoresWithValue:]
+-[NSDate(DateTools) logicLocalizedStringFromFormat:withValue:]
+-[NSDate(DateTools) localizedStringFor:valueType:value:]
+-[NSDate(DateTools) timeAgoSinceDate:format:]
+-[NSDate(DateTools) shortTimeAgoSinceDate:]
+-[NSDate(DateTools) timeAgoSinceDate:numericDates:numericTimes:]
+-[NSDate(DateTools) timeAgoSinceDate:numericDates:]
+-[NSDate(DateTools) timeAgoSinceDate:]
+-[NSDate(DateTools) shortTimeAgoSinceNow]
+-[NSDate(DateTools) timeAgoSinceNow]
++[NSDate(DateTools) shortTimeAgoSinceDate:]
++[NSDate(DateTools) timeAgoSinceDate:]
++[NSDate(DateTools) load]
++[DTTimePeriodChain chain]
+-[DTTimePeriodChain addTimePeriod:]
+-[DTTimePeriodChain insertTimePeriod:atInedx:]
+__46-[DTTimePeriodChain insertTimePeriod:atInedx:]_block_invoke
+-[DTTimePeriodChain removeTimePeriodAtIndex:]
+__45-[DTTimePeriodChain removeTimePeriodAtIndex:]_block_invoke
+__copy_helper_block_.38
+__destroy_helper_block_.39
+-[DTTimePeriodChain removeLatestTimePeriod]
+-[DTTimePeriodChain removeEarliestTimePeriod]
+__45-[DTTimePeriodChain removeEarliestTimePeriod]_block_invoke
+__copy_helper_block_.49
+__destroy_helper_block_.50
+-[DTTimePeriodChain isEqualToChain:]
+__36-[DTTimePeriodChain isEqualToChain:]_block_invoke
+__copy_helper_block_.56
+__destroy_helper_block_.57
+-[DTTimePeriodChain First]
+-[DTTimePeriodChain Last]
+-[DTTimePeriodChain updateVariables]
+-[DTTimePeriodChain setVariablesNil]
+-[DTTimePeriodChain .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.5
+OBJC_CLASSLIST_REFERENCES_$_.6
+OBJC_CLASSLIST_REFERENCES_$_.21
+__block_descriptor_tmp.40
+OBJC_SELECTOR_REFERENCES_.44
+OBJC_SELECTOR_REFERENCES_.46
+__block_descriptor_tmp.51
+__block_descriptor_tmp.58
+OBJC_METH_VAR_NAME_.59
+OBJC_SELECTOR_REFERENCES_.60
+l_OBJC_$_CLASS_METHODS_DTTimePeriodChain
+l_OBJC_METACLASS_RO_$_DTTimePeriodChain
+OBJC_CLASS_NAME_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_METH_VAR_TYPE_.64
+OBJC_METH_VAR_NAME_.65
+OBJC_METH_VAR_TYPE_.66
+OBJC_METH_VAR_NAME_.67
+OBJC_METH_VAR_TYPE_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_METH_VAR_TYPE_.70
+OBJC_METH_VAR_TYPE_.73
+l_OBJC_$_INSTANCE_METHODS_DTTimePeriodChain
+OBJC_METH_VAR_TYPE_.77
+l_OBJC_$_INSTANCE_VARIABLES_DTTimePeriodChain
+OBJC_PROP_NAME_ATTR_.78
+OBJC_PROP_NAME_ATTR_.79
+l_OBJC_$_PROP_LIST_DTTimePeriodChain
+l_OBJC_CLASS_RO_$_DTTimePeriodChain
+-[DTTimePeriodChain .cxx_destruct]
+/Users/FranDepascuali/Documents/Projects/Loans-debts-tracker-iOS/Carthage/Checkouts/DateTools/DateTools/DTTimePeriodChain.m
+-[DTTimePeriodChain setVariablesNil]
+-[DTTimePeriodChain updateVariables]
+-[DTTimePeriodChain Last]
+-[DTTimePeriodChain First]
+-[DTTimePeriodChain isEqualToChain:]
+-[DTTimePeriodChain removeEarliestTimePeriod]
+-[DTTimePeriodChain removeLatestTimePeriod]
+-[DTTimePeriodChain removeTimePeriodAtIndex:]
+-[DTTimePeriodChain insertTimePeriod:atInedx:]
+-[DTTimePeriodChain addTimePeriod:]
++[DTTimePeriodChain chain]
+/Users/FranDepascuali/Library/Developer/Xcode/DerivedData/DateToolsExample-bgwxwoqyqzeudzcwohzpgcwzacms/Build/Intermediates/DateToolsExample.build/Release-iphoneos/DateTools.build/DerivedSources/DateTools_vers.c
+_ZL15__ARCLite__loadv
+_ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+_ZL22add_image_hook_swiftV1PK11mach_headerl
+_ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+_ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+_ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+_ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+_ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+_ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+_ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+_ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+_ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+_ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+_ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+_ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+_ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+_ZL32__arclite_object_getIndexedIvarsP11objc_object
+_ZL23__arclite_objc_getClassPKc
+_ZL27__arclite_objc_getMetaClassPKc
+_ZL31__arclite_objc_getRequiredClassPKc
+_ZL26__arclite_objc_lookUpClassPKc
+_ZL26__arclite_objc_getProtocolPKc
+_ZL23__arclite_class_getNameP10objc_class
+_ZL26__arclite_protocol_getNameP8Protocol
+_ZL37__arclite_objc_copyClassNamesForImagePKcPj
+_ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+_ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+_ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+_ZL14initialize_impP11objc_objectP13objc_selector
+_ZL18allocateMaybeSwiftP18glue_swift_class_tm
+_ZL22copySwiftV1MangledNamePKcb
+_ZL13demangledNamePKcb
+_ZL16scanMangledFieldRPKcS0_S1_Ri
+_ZL30arclite_uninitialized_functionv
+_ZL12cxxConstructP11objc_object
+_ZL20fixStringForCoreDataP11objc_object
+OBJC_METACLASS_$___ARCLite__
+_ZL24OBJC_CLASS_$___ARCLite__
+_ZL31OBJC_METACLASS_RO_$___ARCLite__
+_non_lazy_classes
+_ZL27OBJC_CLASS_RO_$___ARCLite__
+_ZL11_class_name
+_ZL32OBJC_$_CLASS_METHODS___ARCLite__
+_ZL17_load_method_name
+_ZL17_load_method_type
+OBJC_METH_VAR_TYPE_.6
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+.str.7
+.str.8
+_ZL30NSUndoManagerProxy_targetClass
+.str.11
+.str.12
+_ZL29original_NSManagedObject_init
+_ZL40original_NSManagedObject_allocWithEntity
+_ZL35original_NSManagedObject_allocBatch
+_ZL25NSMutableDictionary_class
+.str.19
+_ZL22NSConstantString_class
+.str.20
+_ZL14NSString_class
+.str.21
+_ZL36original_NSKKMS_fastIndexForKnownKey
+_ZL27original_NSKKMS_indexForKey
+_ZL28original_NSKKsD_objectForKey
+_ZL34original_NSKKsD_removeObjectForKey
+_ZL32original_NSKKsD_setObject_forKey
+_ZL40original_NSKKsD_addEntriesFromDictionary
+_ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+_ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+.str.31
+_ZL31original_objc_allocateClassPair
+.str.33
+_ZL31original_object_getIndexedIvars
+_ZL22original_objc_getClass
+.str.35
+_ZL26original_objc_getMetaClass
+.str.36
+_ZL30original_objc_getRequiredClass
+.str.37
+_ZL25original_objc_lookUpClass
+.str.38
+_ZL25original_objc_getProtocol
+.str.39
+_ZL22original_class_getName
+.str.40
+_ZL25original_protocol_getName
+_ZL36original_objc_copyClassNamesForImage
+.str.46
+.str.47
+.str.48
+.str.49
+.str.50
+.str.53
+_ZL12demangleLock
+_ZL9Demangled
+.str.54
+.str.55
+.str.56
+.str.57
+Apple LLVM version 7.3.0 (clang-703.0.21)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=264.3
+__arclite_NSKKsD_addEntriesFromDictionary
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+fixStringForCoreData
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+cxxConstruct
+__arclite_NSManagedObject_init
+arclite_uninitialized_function
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+__arclite_objc_copyClassNamesForImage
+patch_t<const char *(Protocol *)>
+__arclite_protocol_getName
+patch_t<const char *(Class)>
+__isctype
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/ctype.h
+isdigit
+scanMangledField
+copySwiftV1DemangledName
+demangledName
+__arclite_class_getName
+patch_t<Protocol *(const char *)>
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+patch_t<Class (const char *)>
+copySwiftV1MangledName
+__arclite_objc_getClass
+patch_t<void *(id)>
+word_align
+__arclite_object_getIndexedIvars
+patch_t<Class (Class, const char *, unsigned long)>
+allocateMaybeSwift
+isSwift
+metaclass
+__arclite_objc_allocateClassPair
+patch_t<Class (Class, const objc_image_info *)>
+initialize_imp
+property_list_nth
+transcribeProperties
+transcribeProtocols
+method_list_nth
+transcribeMethods
+alignment
+max
+ivar_list_nth
+transcribeIvars
+fastFlags
+data
+ro
+__arclite_objc_readClassPair
+add_image_hook_swiftV1
+install_swiftV1
+install_ARC
+objc_collectingEnabled
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/objc/objc-auto.h
+keyedGetter
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+addOrReplaceMethod
+install_dict_nil_value
+install_subscripting
+install_autoreleasepool
+__ARCLite__load

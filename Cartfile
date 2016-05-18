@@ -1,0 +1,6 @@
+# Core & Functional Programming
+github "ReactiveCocoa/ReactiveCocoa" ~> 4.1.0
+
+# Miscellaneous
+github "MatthewYork/DateTools" ~> 1.7.0
+github "matthewcheok/JSONCodable" ~> 2.1
