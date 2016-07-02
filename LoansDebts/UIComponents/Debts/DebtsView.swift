@@ -10,4 +10,10 @@ import UIKit
 
 public final class DebtsView: UIView {
     
+    @IBOutlet weak var debtsTableView: UITableView!
+    
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        backgroundColor = .clearColor()
+    }
 }

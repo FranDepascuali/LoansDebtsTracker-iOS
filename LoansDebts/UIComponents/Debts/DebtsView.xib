@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -10,8 +10,23 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DebtsView" customModule="LoansDebts" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c67-Gc-fYf">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" red="0.31637791500000001" green="1" blue="0.13144111720000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="c67-Gc-fYf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b3M-Tq-vOn"/>
+                <constraint firstAttribute="bottom" secondItem="c67-Gc-fYf" secondAttribute="bottom" id="bM7-zO-R46"/>
+                <constraint firstAttribute="trailing" secondItem="c67-Gc-fYf" secondAttribute="trailing" id="daX-OO-A8E"/>
+                <constraint firstItem="c67-Gc-fYf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kPG-Ig-ksr"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="debtsTableView" destination="c67-Gc-fYf" id="JgQ-FD-3RH"/>
+            </connections>
         </view>
     </objects>
 </document>

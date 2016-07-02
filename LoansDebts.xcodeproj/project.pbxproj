@@ -20,8 +20,18 @@
 		F817B2E61CEBFB1100C08655 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817B2E51CEBFB1100C08655 /* MainViewModel.swift */; };
 		F817B2E81CEBFD9C00C08655 /* UITabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817B2E71CEBFD9C00C08655 /* UITabBarExtension.swift */; };
 		F817B2EB1CEBFE3700C08655 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817B2EA1CEBFE3700C08655 /* ArrayExtension.swift */; };
+		F83201641D2755C900668A41 /* PaginationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83201631D2755C900668A41 /* PaginationService.swift */; };
 		F846580E1CEBEFD90070FA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F846580D1CEBEFD90070FA44 /* AppDelegate.swift */; };
 		F84658151CEBEFD90070FA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84658141CEBEFD90070FA44 /* Assets.xcassets */; };
+		F87786E11D133E780068E88E /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87786E01D133E780068E88E /* DefaultCell.swift */; };
+		F87786E31D133EAD0068E88E /* DefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87786E21D133EAD0068E88E /* DefaultCell.xib */; };
+		F87786E61D1343480068E88E /* Debt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87786E51D1343480068E88E /* Debt.swift */; };
+		F87786E81D1344220068E88E /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87786E71D1344220068E88E /* Loan.swift */; };
+		F87786EA1D1345600068E88E /* DebtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87786E91D1345600068E88E /* DebtViewModel.swift */; };
+		F87786EF1D1346F10068E88E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87786EB1D1346F10068E88E /* ReactiveCocoa.framework */; };
+		F87786F01D1346F10068E88E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87786EC1D1346F10068E88E /* Result.framework */; };
+		F87786F11D1346F10068E88E /* JSONCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87786ED1D1346F10068E88E /* JSONCodable.framework */; };
+		F87786F21D1346F10068E88E /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87786EE1D1346F10068E88E /* DateTools.framework */; };
 		F8B215AD1CEBF28400569798 /* DebtsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B215AC1CEBF28400569798 /* DebtsView.xib */; };
 		F8B215AF1CEBF29800569798 /* DebtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B215AE1CEBF29800569798 /* DebtsViewController.swift */; };
 		F8B215B11CEBF2A900569798 /* DebtsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B215B01CEBF2A900569798 /* DebtsViewModel.swift */; };
@@ -43,10 +53,20 @@
 		F817B2E51CEBFB1100C08655 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		F817B2E71CEBFD9C00C08655 /* UITabBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarExtension.swift; sourceTree = "<group>"; };
 		F817B2EA1CEBFE3700C08655 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		F83201631D2755C900668A41 /* PaginationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationService.swift; sourceTree = "<group>"; };
 		F846580A1CEBEFD90070FA44 /* LoansDebts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoansDebts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F846580D1CEBEFD90070FA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84658141CEBEFD90070FA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84658191CEBEFD90070FA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87786E01D133E780068E88E /* DefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
+		F87786E21D133EAD0068E88E /* DefaultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultCell.xib; sourceTree = "<group>"; };
+		F87786E51D1343480068E88E /* Debt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debt.swift; sourceTree = "<group>"; };
+		F87786E71D1344220068E88E /* Loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		F87786E91D1345600068E88E /* DebtViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtViewModel.swift; sourceTree = "<group>"; };
+		F87786EB1D1346F10068E88E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		F87786EC1D1346F10068E88E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		F87786ED1D1346F10068E88E /* JSONCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONCodable.framework; path = Carthage/Build/iOS/JSONCodable.framework; sourceTree = "<group>"; };
+		F87786EE1D1346F10068E88E /* DateTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DateTools.framework; path = Carthage/Build/iOS/DateTools.framework; sourceTree = "<group>"; };
 		F8B215AC1CEBF28400569798 /* DebtsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebtsView.xib; sourceTree = "<group>"; };
 		F8B215AE1CEBF29800569798 /* DebtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtsViewController.swift; sourceTree = "<group>"; };
 		F8B215B01CEBF2A900569798 /* DebtsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtsViewModel.swift; sourceTree = "<group>"; };
@@ -59,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87786EF1D1346F10068E88E /* ReactiveCocoa.framework in Frameworks */,
+				F87786F01D1346F10068E88E /* Result.framework in Frameworks */,
+				F87786F11D1346F10068E88E /* JSONCodable.framework in Frameworks */,
+				F87786F21D1346F10068E88E /* DateTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +97,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F83201621D2755B300668A41 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F83201631D2755C900668A41 /* PaginationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F84658011CEBEFD90070FA44 = {
 			isa = PBXGroup;
 			children = (
+				F87786EB1D1346F10068E88E /* ReactiveCocoa.framework */,
+				F87786EC1D1346F10068E88E /* Result.framework */,
+				F87786ED1D1346F10068E88E /* JSONCodable.framework */,
+				F87786EE1D1346F10068E88E /* DateTools.framework */,
 				F817B2D51CEBF97700C08655 /* Default-568h@2x.png */,
 				F846580C1CEBEFD90070FA44 /* LoansDebts */,
 				F846580B1CEBEFD90070FA44 /* Products */,
@@ -93,6 +129,8 @@
 		F846580C1CEBEFD90070FA44 /* LoansDebts */ = {
 			isa = PBXGroup;
 			children = (
+				F83201621D2755B300668A41 /* Services */,
+				F87786E41D13433D0068E88E /* Models */,
 				F817B2E91CEBFE2B00C08655 /* Extensions */,
 				F8B215B21CEBF32400569798 /* UIExtensions */,
 				F8B215A91CEBF24100569798 /* UIComponents */,
@@ -101,6 +139,15 @@
 				F84658191CEBEFD90070FA44 /* Info.plist */,
 			);
 			path = LoansDebts;
+			sourceTree = "<group>";
+		};
+		F87786E41D13433D0068E88E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F87786E51D1343480068E88E /* Debt.swift */,
+				F87786E71D1344220068E88E /* Loan.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		F8B215A91CEBF24100569798 /* UIComponents */ = {
@@ -112,6 +159,8 @@
 				F817B2E11CEBFAF100C08655 /* MainView.swift */,
 				F817B2DF1CEBFAE600C08655 /* MainViewController.swift */,
 				F817B2E51CEBFB1100C08655 /* MainViewModel.swift */,
+				F87786E01D133E780068E88E /* DefaultCell.swift */,
+				F87786E21D133EAD0068E88E /* DefaultCell.xib */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -123,6 +172,7 @@
 				F817B2D31CEBF4B600C08655 /* DebtsView.swift */,
 				F8B215AE1CEBF29800569798 /* DebtsViewController.swift */,
 				F8B215B01CEBF2A900569798 /* DebtsViewModel.swift */,
+				F87786E91D1345600068E88E /* DebtViewModel.swift */,
 			);
 			path = Debts;
 			sourceTree = "<group>";
@@ -211,6 +261,7 @@
 				F84658151CEBEFD90070FA44 /* Assets.xcassets in Resources */,
 				F8B215AD1CEBF28400569798 /* DebtsView.xib in Resources */,
 				F817B2DA1CEBFA3900C08655 /* LoansView.xib in Resources */,
+				F87786E31D133EAD0068E88E /* DefaultCell.xib in Resources */,
 				F817B2D61CEBF97700C08655 /* Default-568h@2x.png in Resources */,
 				F817B2E41CEBFAFE00C08655 /* MainView.xib in Resources */,
 			);
@@ -246,16 +297,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F817B2EB1CEBFE3700C08655 /* ArrayExtension.swift in Sources */,
+				F87786E11D133E780068E88E /* DefaultCell.swift in Sources */,
 				F8B215B61CEBF36600569798 /* UIViewExtension.swift in Sources */,
 				F817B2E21CEBFAF100C08655 /* MainView.swift in Sources */,
 				F817B2E01CEBFAE600C08655 /* MainViewController.swift in Sources */,
 				F817B2DC1CEBFA4700C08655 /* LoansViewController.swift in Sources */,
+				F87786E61D1343480068E88E /* Debt.swift in Sources */,
+				F87786EA1D1345600068E88E /* DebtViewModel.swift in Sources */,
 				F817B2DE1CEBFA6F00C08655 /* LoansViewModel.swift in Sources */,
+				F83201641D2755C900668A41 /* PaginationService.swift in Sources */,
 				F817B2E61CEBFB1100C08655 /* MainViewModel.swift in Sources */,
 				F846580E1CEBEFD90070FA44 /* AppDelegate.swift in Sources */,
 				F817B2E81CEBFD9C00C08655 /* UITabBarExtension.swift in Sources */,
 				F817B2D81CEBFA2A00C08655 /* LoansView.swift in Sources */,
 				F817B2D21CEBF41F00C08655 /* UIViewControllerExtension.swift in Sources */,
+				F87786E81D1344220068E88E /* Loan.swift in Sources */,
 				F8B215B11CEBF2A900569798 /* DebtsViewModel.swift in Sources */,
 				F8B215B41CEBF33200569798 /* NSBundleExtension.swift in Sources */,
 				F817B2D41CEBF4B600C08655 /* DebtsView.swift in Sources */,
@@ -353,6 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LoansDebts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DepaStudios.LoansDebts;
@@ -364,6 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LoansDebts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DepaStudios.LoansDebts;
